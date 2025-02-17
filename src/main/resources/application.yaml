@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://offer-database-postgres.cv9u1sn3mnzh.us-east-1.rds.amazonaws.com:5432/offerdb
+    username: postgres
+    password: lucas-123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+  flyway:
+    baseline-on-migrate: true
+    enabled: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
