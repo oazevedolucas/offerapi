@@ -1,4 +1,4 @@
-# Java Spring Boot + AWS / EC2 / RDS PostgreSQL
+# Como criar uma API Spring Boot do 0 e fazer o deploy dela na AWS
 
 Bem-vindo ao repositório **offerapi**! Este é um projeo Java utilizando o framework Spring Boot, para demonstrar o deploy de uma API em um EC2. Para entender mais a respeito desse repositório te convido a assistir o vídeo no meu canal [@oazevedolucas](https://www.youtube.com/@oazevedolucas/videos).
 
@@ -11,15 +11,15 @@ Bem-vindo ao repositório **offerapi**! Este é um projeo Java utilizando o fram
 
 ## 📊 Visão Geral
 
-Este repositório contém o código da aula [**Ultimate Java Spring EC2 + RDS AWS**](https://youtu.be/5diCOJ22ht8). Aprenda a:
+Este repositório contém o código da aula [**Como criar uma API Spring Boot do 0 e fazer o deploy dela na AWS**](https://youtu.be/5diCOJ22ht8). Aprenda a:
 
-- Criar um Banco de dados RDS
+- Criar um Banco de dados [RDS](https://aws.amazon.com/pt/rds/)
 - Criar uma WEB API JAVA SPRING BOOT DO 0
-- Criar um Serviço EC2
+- Criar um Serviço [EC2](https://aws.amazon.com/pt/ec2/)
 - Fazer deploy da API na [AWS](https://aws.amazon.com/)
 
 <div align="center">
-  <img src="https://i.imgur.com/LOCOAbY.png" alt="Strategy Pattern" width="600px">
+  <img src="https://i.imgur.com/0EaMenF.png" alt="Lucas Azevedo Spring Boot Java AWS EC2 RDS" width="1280px">
 </div>
 
 ---
@@ -59,10 +59,12 @@ Siga as etapas abaixo para executar este projeto localmente:
     acesse o arquivo application.yaml para configurar o projeto com as suas configs.
    ```
 
-
-
-6. Acesse a API em:
+5. Acesse a API em:
    [http://localhost:8080](http://localhost:8080)
+
+6. Comandos Notion:
+[Notion](https://majestic-keyboard-b5f.notion.site/Setup-AWS-19e4d8cbb6db80a9b007e0924fbbd1a6)
+
 
 ---
 
@@ -74,7 +76,7 @@ A arquitetura segue boas práticas de organização, como separação de respons
 src/
 |-- main/
 |   |-- java/
-|   |   |-- com.lucasazevedo.api_pagamentos/
+|   |   |-- com.lucasazevedo.offerapi/
 |   |       |-- repository/          # Interface que cuida das querys
 |   |       |-- controller/          # Controladores REST
 |   |       |-- entity/              # Entidades do banco de dados
@@ -113,4 +115,4 @@ src/
 
 ---
 
-**Assista ao vídeo completo da aula:** [YouTube - JUltimate Java Spring EC2 + RDS AWS](https://youtu.be/5diCOJ22ht8).
+**Assista ao vídeo completo da aula:** [YouTube - JUltimate Java Spring EC2 + RDS AWS](https://youtu.be/mK_gf5RqixQ?si=CwNdgLimQKXJQDU9).
