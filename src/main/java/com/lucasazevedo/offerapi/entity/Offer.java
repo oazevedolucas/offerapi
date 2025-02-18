@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class Offer {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "offer_seq", sequenceName = "offer_seq", allocationSize = 1)
     private Long id;
 
     @Column(name = "description")
